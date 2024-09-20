@@ -1,11 +1,18 @@
-import {Image, StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, View} from 'react-native';
 import React from 'react';
 import {HelperText, SmallText} from '../utils/Typography';
 import FONTS from '../utils/Fonts';
-import Colors from '../theme/Colors';
 import SvgIcon from './SvgIcon';
 import SvgIcons from '../res/svgs';
 
+/**
+ * ReviewComponent
+ *
+ * This component renders a review component that displays a person's name,
+ * a rating icon and a description of the review.
+ *
+ * @returns a JSX.Element
+ */
 const ReviewComponent = () => {
   return (
     <View style={styles.container}>

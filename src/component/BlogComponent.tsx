@@ -7,6 +7,14 @@ import FONTS from '../utils/Fonts';
 import SvgIcon from './SvgIcon';
 import SvgIcons from '../res/svgs';
 
+/**
+ * A component that displays a blog post item.
+ *
+ * It displays a header text of the blog post, a button to explore the post,
+ * and some effects using SVG icons.
+ *
+ * @returns {React.ReactElement} A React component that displays a blog post item.
+ */
 const BlogComponent = () => {
   return (
     <View style={styles.container}>

@@ -16,6 +16,13 @@ interface HeaderProps {
   rightIcon: SVGElement;
 }
 
+/**
+ * The header component for the navigation bar at the top of the screen.
+ *
+ * @param {boolean} isMiddle Whether the component should render a logo icon in the middle or not.
+ * @param {SVGElement} rightIcon The SVG icon to show on the right side of the header.
+ * @returns {React.JSX.Element} The header component.
+ */
 const Header: React.FC<HeaderProps> = ({
   isMiddle,
   rightIcon,

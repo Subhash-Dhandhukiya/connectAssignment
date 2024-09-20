@@ -4,7 +4,6 @@ import {ROUTE} from '../utils/RouteName';
 import {navigationRef} from './NavigationService';
 import {PetScreen, SplashScreen} from '../screen';
 import BottomTab from './BottomTabNavigator';
-import DrawerNavigator from './DrawerNavigation';
 
 const Stack = createStackNavigator();
 

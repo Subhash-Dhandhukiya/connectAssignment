@@ -13,6 +13,20 @@ interface SearchComponentProps {
   placeholderColor: string;
 }
 
+/**
+ * A SearchComponent is a text input with a search icon and a potential
+ * right icon. It's used on the home screen.
+ *
+ * @param {string} value - The current value of the text input.
+ * @param {function} onChangeText - A callback that is called when the text
+ * changes.
+ * @param {style} customStyle - An optional custom style to apply to the
+ * component.
+ * @param {boolean} rightIcon - Whether or not to show the right icon.
+ * @param {string} placeholderColor - The color of the placeholder text.
+ *
+ * @returns {React.JSX.Element} - The SearchComponent.
+ */
 const SearchComponent: React.FC<SearchComponentProps> = ({
   value,
   onChangeText,

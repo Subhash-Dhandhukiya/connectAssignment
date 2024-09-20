@@ -1,11 +1,4 @@
-import {
-  Alert,
-  Image,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {Alert, Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import {ExtraSmallText, HelperText, SmallText} from '../utils/Typography';
 import Colors from '../theme/Colors';
@@ -13,6 +6,14 @@ import FONTS from '../utils/Fonts';
 import SvgIcon from './SvgIcon';
 import SvgIcons from '../res/svgs';
 
+/**
+ * A component that displays a service item.
+ *
+ * It displays a profile image, a header text of the service provider,
+ * a description of the service and a button to know more about the service.
+ *
+ * @returns {React.ReactElement} A React component that displays a service item.
+ */
 const ServiceComponent = () => {
   return (
     <View style={styles.container}>

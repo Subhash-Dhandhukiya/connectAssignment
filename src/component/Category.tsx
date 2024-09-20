@@ -13,6 +13,14 @@ interface CategoryProps {
   colors: string[];
 }
 
+/**
+ * A Category component that renders a button with a gradient effect and an SvgIcon, and a HelperText.
+ *
+ * @param {SVGElement} iconName - The name of the SVGElement to be rendered.
+ * @param {String} title - The title that will be rendered next to the SVGElement.
+ * @param {String[]} colors - An array of 2 strings that will be used as the colors of the gradient.
+ * @returns {React.JSX.Element} A JSX element representing the Category component.
+ */
 const Category: React.FC<CategoryProps> = ({
   iconName,
   title,

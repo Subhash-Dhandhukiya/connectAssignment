@@ -7,6 +7,10 @@ import SearchComponent from './SearchComponent';
 import SvgIcon from './SvgIcon';
 import SvgIcons from '../res/svgs';
 
+/**
+ * A component that displays a welcome screen with a search bar and a bubble icon.
+ * @returns {React.JSX.Element} A JSX element representing the WelcomeComponent.
+ */
 const WelcomeComponent = (): React.JSX.Element => {
   const [search, setSearch] = useState<string>('');
 

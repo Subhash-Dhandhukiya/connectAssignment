@@ -9,6 +9,16 @@ interface SubTitleComponentProps {
   title: string;
 }
 
+/**
+ * A component that displays a subtitle with an SVG icon.
+ *
+ * It displays a bold header text and an SVG icon that displays a '...' icon.
+ * The SVG icon is a TouchableOpacity and when pressed, it will
+ * display an alert saying 'Comming soon...'.
+ *
+ * @param {SubTitleComponentProps} props - The props for the component.
+ * @returns {React.JSX.Element} A JSX element representing the component.
+ */
 const SubTitleComponent: React.FC<SubTitleComponentProps> = ({
   title,
 }): React.JSX.Element => {
