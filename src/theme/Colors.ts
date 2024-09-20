@@ -1,0 +1,25 @@
+const Colors = {
+  white: '#FFFFFF',
+  black: '#000000',
+  lightPerple: '#EEE6FF',
+  perple: '#905CFF',
+  transparent: 'transparent',
+  gray: 'gray',
+  linearPurple: ['#9766FF', '#F7F3FF'],
+  lightGreen: '#EDFFCE',
+  orange: '#FF8A00',
+  textColor: '#333333',
+  linearBlue: ['#FFFFFF', '#CBE0FF'],
+  linearYellow: ['#FFFFFF', '#FFE9BE'],
+  linearPink: ['#FEF2F3', '#FFB0DD'],
+  linearGreen: ['#FFFFFF', '#C0FCF6'],
+  linearOrange: ['#FFFFFF', '#FFC8AB'],
+  linearPurple2: ['#FFFFFF', '#CFCFFF'],
+  purpleBg: '#F6F4FF',
+  purpleBtnBg: '#995BFF',
+  linearLightOrange: ['#FFB5B1', '#CD7ED9'],
+  lightPink: '#FFEDF2',
+  placeholderPink: '#FF6694',
+};
+
+export default Colors;
